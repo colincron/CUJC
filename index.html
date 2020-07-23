@@ -1,0 +1,45 @@
+<!-- VERSION 1.0 GOODTOGO-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CUJC</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Colin's Underwhelming JavaScript Calculator (CUJC)</h1>
+        <p><em>Also viewable using Javascript Console!</em></p>
+        <p>Instructions: Enter a number at each prompt, in the box below results will appear in the following order:</p>
+        <ul>
+            <li>Addition</li>
+            <li>Subtraction</li>
+            <li>Multiplication</li>
+            <li>Division</li>
+        </ul>
+        <p><em>Press button below results to refresh and begin again.</em></p>
+        <p><strong>Using letters will result in an error!</strong></p>
+        <h3 id="numberOne"></h3>
+        <h3 id="numberTwo"></h3>
+        <br>
+        <h4 id="result"></h4>
+        <div class="box">
+            <p id="add"></p>
+            <br>
+            <p id="subtract"></p>
+            <br>
+            <p id="multiply"></p>
+            <br>
+            <p id="divide"></p>
+        </div>
+        <p><button onClick="window.location.reload();">Refresh Page To Try Again</button></p>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <p> &copy; Copyright Nobody 2020</p>
+    </footer>
+</body>
+</html>
